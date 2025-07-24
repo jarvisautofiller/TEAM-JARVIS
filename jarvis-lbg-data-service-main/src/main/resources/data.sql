@@ -1,0 +1,22 @@
+-- Sample LBG records
+INSERT INTO LBG_USER_DATA (
+    PHONE_NUMBER,
+    PROFESSION,
+    ACCOUNT_NUMBER,
+    IFSC_CODE,
+    INCOME
+)
+VALUES
+('9866644487', 'Software Engineer','1234567','SBI1234','50,00,000'),
+('9123456780', 'Data Scientist','2345678','HDFC1234','60,00,000'),
+('8765432109', 'Product Manager','3456789','ICICI1234','70,00,000'),
+('7654321098', 'Business Analyst','4567890','AXIS1234','80,00,000'),
+('7036183122', 'Software Engineer','123456789','SBI1234','50,00,000'),
+('9704166906', 'Software Engineer','234567809','HDFC1234','60,00,000'),
+('9821575407', 'Software Engineer','345678934','ICICI1234','70,00,000'),
+('9492570337', 'Software Engineer','456789078','AXIS1234','80,00,000');
+
+
+
+
+

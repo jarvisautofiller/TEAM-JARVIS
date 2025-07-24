@@ -1,0 +1,20 @@
+meta {
+  name: call
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://jarvis-otp-service-614442955083.europe-west1.run.app/verifyService/initiate-call
+  body: json
+  auth: none
+}
+
+headers {
+  accept: application/json
+  Content-Type: application/json
+}
+
+body:json {
+  {"mobile":"+917036183122"}
+}
